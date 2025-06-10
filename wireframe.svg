@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 배경 -->
+    <rect width="800" height="600" fill="#f8f9fa" />
+    
+    <!-- 헤더 -->
+    <rect x="0" y="0" width="800" height="80" fill="#ffffff" stroke="#e9ecef" />
+    <text x="40" y="50" font-family="Arial" font-size="24" fill="#212529">Todo App</text>
+    
+    <!-- 다크모드 토글 -->
+    <circle cx="720" cy="40" r="20" fill="#ffffff" stroke="#212529" />
+    <path d="M720 25 L720 55 M705 40 L735 40" stroke="#212529" stroke-width="2" />
+    
+    <!-- 메인 컨텐츠 영역 -->
+    <rect x="40" y="120" width="720" height="400" fill="#ffffff" stroke="#e9ecef" rx="8" />
+    
+    <!-- Todo 입력 폼 -->
+    <rect x="60" y="140" width="680" height="60" fill="#f8f9fa" stroke="#e9ecef" rx="4" />
+    <text x="80" y="175" font-family="Arial" font-size="16" fill="#6c757d">할 일을 입력하세요...</text>
+    
+    <!-- Todo 항목들 -->
+    <g transform="translate(60, 220)">
+        <!-- Todo 항목 1 -->
+        <rect width="680" height="60" fill="#ffffff" stroke="#e9ecef" rx="4" />
+        <circle cx="30" cy="30" r="15" fill="#ffffff" stroke="#212529" />
+        <text x="60" y="35" font-family="Arial" font-size="16" fill="#212529">Todo 항목 1</text>
+        <text x="60" y="55" font-family="Arial" font-size="12" fill="#6c757d">마감일: 2024-03-30</text>
+        
+        <!-- Todo 항목 2 -->
+        <rect y="80" width="680" height="60" fill="#ffffff" stroke="#e9ecef" rx="4" />
+        <circle cx="30" cy="110" r="15" fill="#ffffff" stroke="#212529" />
+        <text x="60" y="115" font-family="Arial" font-size="16" fill="#212529">Todo 항목 2</text>
+        <text x="60" y="135" font-family="Arial" font-size="12" fill="#6c757d">마감일: 2024-03-31</text>
+        
+        <!-- Todo 항목 3 -->
+        <rect y="160" width="680" height="60" fill="#ffffff" stroke="#e9ecef" rx="4" />
+        <circle cx="30" cy="190" r="15" fill="#ffffff" stroke="#212529" />
+        <text x="60" y="195" font-family="Arial" font-size="16" fill="#212529">Todo 항목 3</text>
+        <text x="60" y="215" font-family="Arial" font-size="12" fill="#6c757d">마감일: 2024-04-01</text>
+    </g>
+    
+    <!-- 푸터 -->
+    <rect x="0" y="560" width="800" height="40" fill="#ffffff" stroke="#e9ecef" />
+    <text x="40" y="585" font-family="Arial" font-size="14" fill="#6c757d">총 3개의 할 일</text>
+    
+    <!-- 반응형 디자인 표시 -->
+    <g transform="translate(40, 120)">
+        <rect width="720" height="400" fill="none" stroke="#6c757d" stroke-dasharray="5,5" />
+        <text x="10" y="20" font-family="Arial" font-size="12" fill="#6c757d">최대 너비: 720px</text>
+    </g>
+</svg> 
